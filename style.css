@@ -1,0 +1,31 @@
+ 
+.head{
+background: black;
+}
+.grey{
+background: grey;
+}
+.side{
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUDvxAPuvdKtq7XtRQu3mc0RQF-z35Xfk-Kd6i7MnIYx15ApAc);
+float: left;
+height: 250;
+width: 30%;
+}
+
+.body{
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUDvxAPuvdKtq7XtRQu3mc0RQF-z35Xfk-Kd6i7MnIYx15ApAc);
+float: right;
+height: 250;
+width: 70%;
+}
+.kertas{
+background: black;
+}
+
+.terdalam{
+background: maroon;
+}
+.clear{
+background: red;
+}
+
