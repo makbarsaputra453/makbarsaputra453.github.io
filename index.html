@@ -1,193 +1,20 @@
-<html>
-<head>
-	<title>tugasbiodataLabKom</title>
-	</head>
-<body><style>
-
-.head{
-background: black;
-}
-.grey{
-background: grey;
-}
-.side{
-background: white;
-float: right;
-height: 250;
-width: 30%;
-}
-
-.body{
-background: white;
-float: left;
-height: 250;
-width: 70%;
-}
-.terdalam{
-background: silver;
-}
-.clear{
-background: red;
-}
-
-</style>
-<div class="head">
-
-<font color="white">Biodata</div> 
-
-</div>
-<div class="body">
-
-<font face="Serif" color="black" size="3">
+<html><head>	<title></title>	<link rel="stylesheet" type="text/css" href="style.css"></head><body bgcolor="black">
+<div class="head"><font color="red" size="5" face="serif"><center>Biodata</center></div> 
+<div class="body"><font face="Serif" color="black" size="3">
 <table bgcolor="silver">
-<tr>
-<td>Nama</td><td>: Muhamad Akbar Saputra</td></tr>
+<tr><td>Nama</td><td>: Muhamad Akbar Saputra</td></tr>
 <tr><td>Jenis Kelamin</td><td>: Laki laki</td></tr><tr>
 <tr><td>Tempat, Tanggal Lahir  </td><td>: Bogor,31 Mei 2003</td></tr>
-<td>Agama</td><td>: Islam</td>
-</tr>
+<td>Agama</td><td>: Islam</td></tr>
 <tr><td>Status</td><td>: Pelajar</td></tr>
 <tr><td>Kewarganegaraan</td><td>: WNI</td></tr>
-<td>Alamat</td><td>: Kp.Pasireurih RT/RW 01/14 ,Keacamatan Tamansari,Kabupaten Bogor,Jawa Barat</td>
-</tr>
-<td>No.Telephone </td><td>: 0857-7336-4835</td>
-</tr>
+<td>Alamat</td><td>: Kp.Pasireurih RT/RW 01/14 ,Kecamatan Tamansari,Kabupaten Bogor,Jawa Barat</td></tr>
+<td>No.Telephone </td><td>: 0857-7336-4835</td></tr>
 <td>Email</td><td>: makbarsaputra64@smakbo.sch.id</td>
-</tr>
-</table>
- <center>
-</center>
-
-</div></font><font color="black"><i>
-<div class="side" align="center">
-<img src="https://raw.githubusercontent.com/makbarsaputra453/makbarsaputra453.github.io/master/akbar.jpg" height="250" width="250" onclick="alert('Tamfans kan? haha...ups,....  Alhamdulillah...')">
-</div>
-<script type="text/javascript">
-TypingText = function(element, interval, cursor, finishedCallback) {
-if((typeof document.getElementById == "undefined") || (typeof
-
-element.innerHTML == "undefined")) {
-this.running = true;
-return;
-}
-this.element = element;
-this.finishedCallback = (finishedCallback ? finishedCallback : function() {
-
-return; });
-this.interval = (typeof interval == "undefined" ? 100 : interval);
-this.origText = this.element.innerHTML;
-this.unparsedOrigText = this.origText;
-this.cursor = (cursor ? cursor : "");
-this.currentText = "";
-this.currentChar = 0;
-this.element.typingText = this;
-if(this.element.id == "") this.element.id = "typingtext" +
-
-TypingText.currentIndex++;
-TypingText.all.push(this);
-this.running = false;
-this.inTag = false;
-this.tagBuffer = "";
-this.inHTMLEntity = false;
-this.HTMLEntityBuffer = "";
-}
-TypingText.all = new Array();
-TypingText.currentIndex = 0;
-TypingText.runAll = function() {
-for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
-}
-TypingText.prototype.run = function() {
-if(this.running) return;
-if(typeof this.origText == "undefined") {
-setTimeout("document.getElementById('" + this.element.id +
-
-"').typingText.run()", this.interval);
-return;
-}
-if(this.currentText == "") this.element.innerHTML = "";
-if(this.currentChar < this.origText.length) {
-if(this.origText.charAt(this.currentChar) == "<" && !this.inTag) {
-this.tagBuffer = "<";
-this.inTag = true;
-this.currentChar++;
-this.run();
-return;
-} else if(this.origText.charAt(this.currentChar) == ">" && this.inTag) {
-this.tagBuffer += ">";
-this.inTag = false;
-this.currentText += this.tagBuffer;
-this.currentChar++;
-this.run();
-return;
-} else if(this.inTag) {
-this.tagBuffer += this.origText.charAt(this.currentChar);
-this.currentChar++;
-this.run();
-return;
-} else if(this.origText.charAt(this.currentChar) == "&" && !
-
-this.inHTMLEntity) {
-this.HTMLEntityBuffer = "&";
-this.inHTMLEntity = true;
-this.currentChar++;
-this.run();
-return;
-} else if(this.origText.charAt(this.currentChar) == ";" &&
-
-this.inHTMLEntity) {
-this.HTMLEntityBuffer += ";";
-this.inHTMLEntity = false;
-this.currentText += this.HTMLEntityBuffer;
-this.currentChar++;
-this.run();
-return;
-} else if(this.inHTMLEntity) {
-this.HTMLEntityBuffer += this.origText.charAt(this.currentChar);
-this.currentChar++;
-this.run();
-return;
-} else {
-this.currentText += this.origText.charAt(this.currentChar);
-}
-this.element.innerHTML = this.currentText;
-this.element.innerHTML += (this.currentChar < this.origText.length - 1 ?
-
-(typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) :
-
-"");
-this.currentChar++;
-setTimeout("document.getElementById('" + this.element.id +
-
-"').typingText.run()", this.interval);
-} else {
-this.currentText = "";
-this.currentChar = 0;
-this.running = false;
-this.finishedCallback();
-}
-}
-</script>
-
-
-<!-- AdFender script begin --><script type='text/javascript' src='-'></script><!-- AdFender script end -->
-<!-- AdFender script begin --><script type='text/javascript' src='-'></script><!-- AdFender script end -->
-</head>
-<body oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' ondragstart='return false' onselectstart='return false' style='-moz-user-select: none; cursor: default;'>
-<br/><br/>
-
-<center><u>sedikit sapaan</u></center>
-
-<p id="message">Emm... haii... <br>Namaku Muhamad Akbar Saputra atau biasa dipanggil Akbar.Aku sekarang adalah murid kelas 11-2 di SMK SMAK Bogor.<br>hobby ku menggambar,  membaca buku ,cerita dan film,  baik anime atau drama turki, <br> dan aku juga sedikit introvert jadi ,... Sedikit canggung mengungkapkan sesuatu dihadapan umum... hehe... maaf soal itu ya...<br>pesan ku adalah ..  <b>tetap Optimis, Ikhtiar , Tawakal</b><br>sekian , terimakasih...
-<script type="text/javascript">
-new TypingText(document.getElementById("message"), 50, function(i){ var ar
-
-= new Array("|", "|", "|", "|"); return " " + ar[i.length % ar.length]; });
-
-//Type out examples:
-TypingText.runAll();
-
-</script>
-
-</i>
-<div class="terdalam">
-</font><font color="red"onclick="alert('email me on muhamadakbarsaputra453@gmail.com, thanks!  ^_^')" >contact me! </font><br>
+</tr></table></div></font>
+<div class="side" align="center"><img src="https://raw.githubusercontent.com/makbarsaputra453/makbarsaputra453.github.io/master/akbar.jpg" height="250" width="250" onclick="alert('Stay calm, Optimis, Ikhtiar and Tawakal')"></div>
+<script type="text/javascript" src="1typtx.js"></script><div class="kertas"><p id="message"><table>
+<tr><td>[^_^]</td><td> <font size="2px" color="white" face="serif"><br>Haii.... <br>Namaku<b><u> Muhamad Akbar Saputra</u></b> atau biasa dipanggil<font size="2px" color="red" face="serif"> Akbar</font><br>Aku sekarang adalah murid kelas 11-2 di SMK SMAK Bogor<br><br> Aku sedikit introvert jadi ,... agak canggung mengungkapkan sesuatu dihadapan umum... hehe... maaf soal itu ya...
+<br>pesan ku adalah .. <b> <font size="2px" color="aqua" face="serif">"tetap selalu Optimis, Ikhtiar , Tawakal"</b></font><br>sekian , terimakasih...<font size="2px" color="pink" face="serif"> semoga hari mu menyenangkan!</font><br></font></div></p></td></tr></table>
+<script type="text/javascript" src="2typtx.js"></script>
+<div class="terdalam" align="right"></font><font face="serif" size="3" color="black"onclick="alert('email me on muhamadakbarsaputra453@gmail.com')" ><i>contact me! </i></font></body></html>
