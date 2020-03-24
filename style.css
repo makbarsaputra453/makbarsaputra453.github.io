@@ -1,7 +1,10 @@
  
 
-.grey{
-background: grey;
+.lingkaran1{
+	width: 200px;
+	height: 200px;
+	background: #dac52c;
+	border-radius: 100%;
 }
 .side{
 background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUDvxAPuvdKtq7XtRQu3mc0RQF-z35Xfk-Kd6i7MnIYx15ApAc);
