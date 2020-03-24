@@ -7,10 +7,7 @@ float: left;
 height: 250;
 width: 30%;
 }
-.side img{height=75 
-	width=75 
-	border-radius="50%"
-}
+
 
 .h1 {
 color: #FF0000;
@@ -26,7 +23,8 @@ height: 250;
 width: 70%;
 }
 
-
+img(
+no comment -.-)
 
 .p{
 background: black;
