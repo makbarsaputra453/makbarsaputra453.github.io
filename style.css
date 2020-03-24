@@ -1,11 +1,6 @@
  
 
-.lingkaran1{
-	width: 200px;
-	height: 200px;
-	background: #dac52c;
-	border-radius: 100%;
-}
+
 .side{
 background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUDvxAPuvdKtq7XtRQu3mc0RQF-z35Xfk-Kd6i7MnIYx15ApAc);
 float: left;
@@ -25,6 +20,14 @@ float: right;
 height: 250;
 width: 70%;
 }
+
+.body img{
+	width: 300px;
+	height: 300px;
+	background-image:url(https://raw.githubusercontent.com/makbarsaputra453/makbarsaputra453.github.io/master/akbar.jpg);
+	border-radius: 45%;
+}
+
 .p{
 background: black;
 }
