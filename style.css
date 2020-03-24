@@ -1,7 +1,5 @@
  
-.head{
-background: black;
-}
+
 .grey{
 background: grey;
 }
@@ -14,10 +12,11 @@ width: 30%;
 h1 {
 color: red;
 font-family: serif;
-font-size: 7px;
+font-size: 5px;
 font-weight: bold;
 margin-top: 0px;
 margin-bottom: 1px;
+background: black;
 }
 .body{
 background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUDvxAPuvdKtq7XtRQu3mc0RQF-z35Xfk-Kd6i7MnIYx15ApAc);
